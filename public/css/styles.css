@@ -1,0 +1,55 @@
+html, body {
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container{  
+  margin-top:20%;
+  z-index: 1;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: 150vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* for   */
+@media screen and (max-width:485px) {
+  .container{
+    margin-top: 50%;
+  }
+}
+/* for mobiles  */
+@media screen and (max-width:600px) {
+  .container{
+    margin-top: 40%;
+  }
+}
+/* tabs  */
+@media screen and (max-width:768px) {
+  .container{
+    margin-top: 30%;
+  }
+}
+/* laptops */
+@media screen and (max-width:992px) {
+  .container{
+    margin-top: 20%;
+  }
+}
+/* large screen */
+@media screen and (max-width:1200px) {
+  .container{
+    margin-top: 25%;
+  }
+}
